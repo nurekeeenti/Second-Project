@@ -116,3 +116,94 @@ header{
 .nav_bar a{
     color:black;
 }
+
+main{
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  background-color: antiquewhite;
+  width: 450px;
+  height: 450px;
+  border: 2px solid black;
+  border-radius: 10px;
+
+}
+.mini_block{
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.title{
+  text-align: center;
+  padding-top: 50px;
+  font-size: 50px;
+}
+
+
+.columns_container{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 150px 250px;
+  grid-auto-rows: minmax(250px, auto);
+  gap:50px;
+  padding-top: 50px;
+}
+.columns{
+  /* border: 2px solid green; */
+}
+
+.column1{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 100px;
+}
+
+.mini_title{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 12px 0 12px 0;
+}
+
+.column2{
+    /* border: 2px solid red; */
+}
+.input{
+  display: block;
+  background-color:antiquewhite;
+  width:200px;
+  border-bottom: 2px solid black;
+  margin: 10px;
+  font-size: 1.2em;
+  padding: 10px 0 10px 0;
+}
+
+.button{
+  text-align: center;
+  margin-top: 50px;
+}
+button{
+  background-color: black;
+  color: white;
+  width:120px;
+  height: 40px;
+  border-radius: 45px;
+}
+
+
+.icon{
+  width: 15px;
+  height: auto;
+}
+
+
+.social_icons{
+  display: grid;
+  grid-template-columns: 15px 15px 15px; /*Вот тут чутка не понял че сделал, но помогло */
+  gap:15px;
+  justify-content: center;
+}
