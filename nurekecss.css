@@ -156,11 +156,11 @@ main {
   padding: 15px;
 }
 
-/* .mini_block.container1 {
+.mini_block.container1 {
 }
 
 .mini_block.container2 {
-} */
+} 
 
 .title2 {
   font-size: 25px;
@@ -175,8 +175,10 @@ main {
 }
 
 .columns_container2{
-  display: flex;
-  flex-direction: column;
+  display:flex;
+  justify-content: center;
+  margin-left: 200px;
+  margin-bottom: 200px;
 }
 
 
