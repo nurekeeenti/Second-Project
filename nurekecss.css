@@ -120,84 +120,8 @@ main {
   align-items: center;
   justify-content: center;
   height: 100vh;
-}
-
-
-  /* main {
   background-color: black;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}  */ /* тут не смог разобраться, почему при написании background-color : black; выходит так что пропадает header и вся страница total black */
-
-
-.container {
-  width: 550px;
-  height: 500px;
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0px 2px 14px whitesmoke;
-}
-
-.title {
-  text-align: center;
-  font-size: 45px;
-  font-weight: bold;
-  padding-top: 30px;
-}
-
-.columns_container {
-  display: flex;
-  flex-direction: column;
-  gap:35px;
-  margin-top: 10vh;
-  max-width: 150px;
-  padding: 15px;
-}
-
-.mini_block.container1 {
-}
-
-.mini_block.container2 {
-} 
-
-.title2 {
-  font-size: 25px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.context {
-  font-size: 15px;
-  text-align: center;
-  margin-top: 10px;
-}
-
-.columns_container2{
-  display:flex;
-  justify-content: center;
-  margin-left: 200px;
-  margin-bottom: 200px;
 }
 
 
-.input{
-  display: block;
-  background-color:black;
-  margin:10px;
-  width:200px;
-  font-size: 20px;
-  padding: 10px 0 10px 0;
-}
 
-button{
-  background-color: black;
-  height: 30px;
-  width: 70px;
-  border-radius: 20px;
-  color: white;
-}
-.button {
-  text-align: center;
-}
