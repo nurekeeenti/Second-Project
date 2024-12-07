@@ -120,11 +120,10 @@ main {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: black;
 }
 
 .container{
-  background-color: white;
+  background-color: beige;
   width: 600px;
   height: 500px;
   border-radius: 12px;
@@ -143,7 +142,7 @@ main {
 
 .mini_container{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-around
 }
 
 
@@ -151,30 +150,67 @@ main {
   margin-top: 50px;
   width: 200px;
   height: 300px;
-  border:2px solid green;
+  /* border:2px solid green; */
 }
 
 .colum1{
   height: auto;
+}
+.column2 {
+  padding-top: 20px;
 }
 
 
 .mini_text{
   margin-top: 50px;
   /* padding-top: 50px; */
-  border: 5px solid red;
+  /* border: 5px solid red; */
 
-}
-
-.mini_text h1{
-  font-weight: 800;
-  font-size: 20px;
 }
 
 .mini_text h4{
-  /* padding-top: 10px; */
-  margin-top: 10px;
-  border: 2px solid blue;
+  padding-top: 10px;
+  /* margin-top: 10px; */
+  /* border: 2px solid blue; */
+}
+
+.context1{
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.mini_text h1{
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
 }
 
 
+.mini_text h4 {
+  font-size: 15px;
+  text-align: center;
+}
+
+
+
+.input {
+  display: block;
+  margin-top: 30px;
+  font-size: 15px;
+  border-bottom: solid black 2px;
+  background-color: beige;
+}
+
+.button {
+  text-align: center;
+  margin-left: 10px;
+}
+
+button{
+  background-color: black;
+  color: aliceblue;
+  margin-top: 30px;
+  width: 150px;
+  height: 50px;
+  border-radius: 8px;
+}
